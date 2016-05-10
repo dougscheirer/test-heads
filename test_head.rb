@@ -5,4 +5,8 @@ class TestHead < Sinatra::Base
   get "/" do
     erb :welcome
   end
+
+  get "/empty" do
+  end
+  
 end
