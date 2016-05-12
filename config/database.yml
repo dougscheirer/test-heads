@@ -4,4 +4,14 @@ development:
   pool: 5
   timeout: 5000
 
-# heroku handles the production config?
+# heroku handles the production config
+
+# this is for non-heroku running production
+production:
+  adapter: postgresql
+  encoding: unicode
+  template: template0
+  database: production
+  pool: 5
+  username: postgres
+  password:
